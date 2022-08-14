@@ -1,38 +1,3 @@
-@font-face {
-  font-family: "Libre Baskerville Bold";
-  src: local("*"), url("TypoPRO-LibreBaskerville-Bold.woff") format("woff");
-  font-style: normal;
-  font-weight: bold;
-  font-stretch: normal;
-  font-variant: normal;
-}
-
-@font-face {
-  font-family: "Libre Baskerville Italic";
-  src: local("*"), url("TypoPRO-LibreBaskerville-Italic.woff") format("woff");
-  font-style: italic;
-  font-weight: normal;
-  font-stretch: normal;
-  font-variant: normal;
-}
-
-@font-face {
-  font-family: "Libre Baskerville Regular";
-  src: local("*"), url("TypoPRO-LibreBaskerville-Regular.woff") format("woff");
-  font-style: normal;
-  font-weight: normal;
-  font-stretch: normal;
-  font-variant: normal;
-}
-
 * {
-  font-family: "Libre Baskerville Regular" !important;
-}
-
-.italic {
-  font-family: "Libre Baskerville Italic";
-}
-
-.bold {
-  font-family: "Libre Baskerville Bold";
+  font-family: "Libre Baskerville" !important;
 }
