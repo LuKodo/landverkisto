@@ -8,7 +8,7 @@ function App () {
     <>
       <Nav />
       <div className="container w-full md:max-w-3xl mx-auto pt-20">
-        <div className="w-full px-4 md:px-6 text-xl text-gray-800 leading-normal">
+        <div className="w-full font-serif px-4 md:px-6 text-xl text-gray-800 leading-normal">
           <Route path="/">
             <FrontPage />
           </Route>

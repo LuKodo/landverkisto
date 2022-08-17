@@ -1,4 +1,5 @@
 import { Link } from "wouter"
+import Guide from "./Guide"
 import PageTitle from "./PageTitle"
 
 function Cxenoj () {
@@ -35,14 +36,7 @@ function Cxenoj () {
         Como gente que no ama
       </p>
 
-      <div className="font-sans flex justify-between content-center px-4 pb-12">
-        <div className="text-left">
-          <Link to="/kio-ni-estas" className="break-normal text-base md:text-sm text-green-500 font-bold no-underline">Lo que somos</Link>
-        </div>
-        <div className="text-right">
-          <Link to='/nokte' className="break-normal text-base md:text-sm text-green-500 font-bold no-underline hover:underline">De Noche</Link>
-        </div>
-      </div>
+      <Guide leftLink='/kio-ni-estas' leftText='Lo que somos' rigthLink='/nokte' rigthText='De noche' />
     </>
   )
 }
@@ -50,7 +44,7 @@ function Cxenoj () {
 function Dedicatoria () {
   return (
     <>
-      <blockquote className="border-r-4 text-right border-green-500 italic my-8 pr-8 md:pl-12">
+      <blockquote className="border-r-4 text-right border-teal-500 italic my-8 pr-8 md:pl-12">
         Este libro está dedicado a Ella.
         <br />
         <br />
@@ -59,14 +53,7 @@ function Dedicatoria () {
         ver este sueño hecho realidad.
       </blockquote>
 
-      <div className="font-sans flex justify-between content-center px-4 pb-12">
-        <div className="text-left">
-          <Link to="/frontpagxo" className="break-normal text-base md:text-sm text-green-500 font-bold no-underline">Portada</Link>
-        </div>
-        <div className="text-right">
-          <Link to='/kagxoj' className="break-normal text-base md:text-sm text-green-500 font-bold no-underline hover:underline">Jaulas</Link>
-        </div>
-      </div>
+      <Guide leftLink='/frontpagxo' leftText='Portada' rigthLink='/kagxoj' rigthText='Jaulas' />
     </>
   )
 }
@@ -120,14 +107,7 @@ function EnLaFlavaUrbo () {
         espumoso, en una ciudad amarilla.
       </p>
 
-      <div className="font-sans flex justify-between content-center px-4 pb-12">
-        <div className="text-left">
-          <Link to="/sub-via-ombro" className="break-normal text-base md:text-sm text-green-500 font-bold no-underline hover:underline">Debajo de tu sombra</Link>
-        </div>
-        <div className="text-right">
-          <Link to="/revo" className="break-normal text-base md:text-sm text-green-500 font-bold no-underline hover:underline">Sueño</Link>
-        </div>
-      </div>
+      <Guide leftLink='/sub-via-ombro' leftText='Debajo de tu sombra' rigthLink='/revo' rigthText='Sueño' />
     </>
   )
 }
@@ -135,18 +115,12 @@ function EnLaFlavaUrbo () {
 function FrontPage () {
   return (
     <>
-      <blockquote className="border-l-4 border-green-500 italic my-8 pl-8 md:pl-12">
+      <blockquote className="border-l-4 border-teal-500 italic my-8 pl-8 md:pl-12">
         Cartas escritas desde el corazón inexistente para un amor incalculable,
         donde se descubren los mundos de introspección de un joven poeta y su alma desgarrada.
       </blockquote>
 
-      <div className="font-sans flex justify-between content-center px-4 pb-12">
-        <div className="text-left">
-        </div>
-        <div className="text-right">
-          <Link to="dedicxo" className="break-normal text-base md:text-sm text-green-500 font-bold no-underline hover:underline">Dedicatoria</Link>
-        </div>
-      </div>
+      <Guide rigthLink='/dedicxo' rigthText='Dedicatoria' />
     </>
   )
 }
@@ -188,14 +162,7 @@ function Kagxoj () {
         Ya el bosque no me hace feliz...
       </p>
 
-      <div className="font-sans flex justify-between content-center px-4 pb-12">
-        <div className="text-left">
-          <Link to="/dedicxo" className="break-normal text-base md:text-sm text-green-500 font-bold no-underline">Dedicatoria</Link>
-        </div>
-        <div className="text-right">
-          <Link to='/kio-ni-estas' className="break-normal text-base md:text-sm text-green-500 font-bold no-underline hover:underline">Lo que somos</Link>
-        </div>
-      </div>
+      <Guide leftLink='/dedicxo' leftText='Dedicatoria' rigthLink='/kio-ni-estas' rigthText='Lo que somos' />
     </>
   )
 }
@@ -230,14 +197,7 @@ function KioNiEstas () {
         Almas de piezas completas
       </p>
 
-      <div className="font-sans flex justify-between content-center px-4 pb-12">
-        <div className="text-left">
-          <Link to="/kagxoj" className="break-normal text-base md:text-sm text-green-500 font-bold no-underline">Jaulas</Link>
-        </div>
-        <div className="text-right">
-          <Link to='/cxenoj' className="break-normal text-base md:text-sm text-green-500 font-bold no-underline hover:underline">Cadenas</Link>
-        </div>
-      </div>
+      <Guide leftLink='/kagxoj' leftText='Jaulas' rigthLink='/cxenoj' rigthText='Cadenas' />
     </>
   )
 }
@@ -292,21 +252,14 @@ function LaAtendo () {
         que la traigas contigo.<br />
         Pero tal vez no funcione en el reino de los<br />
         blancos; Aquellos que a pulso brillante<br />
-        plantaron árboles de metal a mí al rededor y<br />
+        plantaron árboles de metal a mí al tealedor y<br />
         no me dejaron volar en las planicies de mi<br />
         mundo y se robaron mis noches salpicadas,<br />
         para marcarme con el acero ardiente de la vida<br />
         en la ciudad.
       </p>
 
-      <div className="font-sans flex justify-between content-center px-4 pb-12">
-        <div className="text-left">
-          <Link to="/nokte" className="break-normal text-base md:text-sm text-green-500 font-bold no-underline">De Noche</Link>
-        </div>
-        <div className="text-right">
-          <Link to='/nuda' className="break-normal text-base md:text-sm text-green-500 font-bold no-underline hover:underline">Desnuda</Link>
-        </div>
-      </div>
+      <Guide leftLink='/nokte' leftText='De noche' rigthLink='/nuda' rigthText='Desnuda' />
     </>
   )
 }
@@ -363,14 +316,7 @@ function Nokte () {
         Aquello no era más que la Vía Láctea.
       </p>
 
-      <div className="font-sans flex justify-between content-center px-4 pb-12">
-        <div className="text-left">
-          <Link to="/cxenoj" className="break-normal text-base md:text-sm text-green-500 font-bold no-underline">Cadenas</Link>
-        </div>
-        <div className="text-right">
-          <Link to='/la-atendo' className="break-normal text-base md:text-sm text-green-500 font-bold no-underline hover:underline">La espera</Link>
-        </div>
-      </div>
+      <Guide leftLink='/cxenoj' leftText='Cadenas' rigthLink='/la-atendo' rigthText='La Espera' />
     </>
   )
 }
@@ -423,14 +369,7 @@ function Nuda () {
         la muerte se desnudó.
       </p>
 
-      <div className="font-sans flex justify-between content-center px-4 pb-12">
-        <div className="text-left">
-          <Link to="/la-atendo" className="break-normal text-base md:text-sm text-green-500 font-bold no-underline">La espera</Link>
-        </div>
-        <div className="text-right">
-          <Link to='/sub-via-ombro' className="break-normal text-base md:text-sm text-green-500 font-bold no-underline hover:underline">Debajo de tu sombra</Link>
-        </div>
-      </div>
+      <Guide leftLink='la-atendo' leftText='La Espera' rigthLink='/sub-via-ombro' rigthText='Debajo de tu sombra' />
     </>
   )
 }
@@ -486,11 +425,7 @@ function Revo () {
         cabeza y en mis sueños.
       </p>
 
-      <div className="font-sans flex justify-between content-center px-4 pb-12">
-        <div className="text-left">
-          <Link to="/en-la-flava-urbo" className="break-normal text-base md:text-sm text-green-500 font-bold no-underline">En la ciudad amarilla</Link>
-        </div>
-      </div>
+      <Guide leftLink='/en-la-flava-urbo' leftText='En la ciudad amarilla' />
     </>
   )
 }
@@ -560,25 +495,18 @@ function SubViaOmbro () {
         Quisiera quedarme, vivir bajo tu abrigo el<br />
         resto de mis días, ya que son pocos pero la<br />
         ciudad ha talado el resto de árboles a tu<br />
-        alrededor y siento tanto miedo al solo pensar<br />
+        altealedor y siento tanto miedo al solo pensar<br />
         que esta noche seas el próximo.<br />
       </p>
       <p className="py-6">
         Mientras caminaba a casa te pensé, e incluso te<br />
         escribí esta carta para que supieras cuanto te<br />
         necesito, cuanto realmente eres necesario para<br />
-        tener un poco de sentido en esta vida.<br /><br/>
+        tener un poco de sentido en esta vida.<br /><br />
         ... Cuando volví a la mañana, ya no estabas
       </p>
 
-      <div className="font-sans flex justify-between content-center px-4 pb-12">
-        <div className="text-left">
-          <Link to="/nuda" className="break-normal text-base md:text-sm text-green-500 font-bold no-underline">Desnuda</Link>
-        </div>
-        <div className="text-right">
-          <Link to='/en-la-flava-urbo' className="break-normal text-base md:text-sm text-green-500 font-bold no-underline hover:underline">En la ciudad amarilla</Link>
-        </div>
-      </div>
+      <Guide leftLink='/nuda' leftText='Desnuda' rigthLink='/en-la-flava-urbo' rigthText='En la ciudad amarilla' />
     </>
   )
 }

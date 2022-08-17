@@ -1,3 +1,7 @@
-* {
-  font-family: 'Playfair Display', serif;
+.font-serif {
+  font-family: "Playfair Display", serif !important;
+}
+
+.font-sans {
+  font-family: "Poppins", sans-serif !important;
 }

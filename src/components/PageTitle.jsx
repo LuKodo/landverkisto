@@ -1,9 +1,9 @@
 function PageTitle (props) {
 
   return (
-    <div className="font-sans">
+    <div className="font-serif">
       <em>
-        <h1 className="font-bold break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">{props.title}</h1>
+        <h1 className="font-bold break-normal text-teal-500 pt-6 pb-2 text-3xl md:text-4xl">{props.title}</h1>
       </em>
     </div>
   )
