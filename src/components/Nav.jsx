@@ -1,3 +1,5 @@
+import { Link } from "wouter";
+
 function Nav () {
   document.addEventListener('scroll', function () {
     if (window.scrollY > 10) {
@@ -40,37 +42,37 @@ function Nav () {
           <div className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 md:bg-transparent z-20 bg-gray-100" id="nav-content">
             <ul className="list-reset lg:flex justify-end flex-1 items-center">
               <li className="mr-3">
-                <a className='inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4' href='/frontpagxo'>Portada</a>
+                <Link onClick={onClickToggle} className='inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4' href='/frontpagxo'>Portada</Link>
               </li>
               <li className="mr-3">
-                <a className='inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4' href='/dedicxo'>Dedicatoria</a>
+                <Link onClick={onClickToggle} className='inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4' href='/dedicxo'>Dedicatoria</Link>
               </li>
               <li className="mr-3">
-                <a className='inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4' href='/kagxoj'>Jaulas</a>
+                <Link onClick={onClickToggle} className='inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4' href='/kagxoj'>Jaulas</Link>
               </li>
               <li className="mr-3">
-                <a className='inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4' href='/kio-ni-estas'>Lo que somos</a>
+                <Link onClick={onClickToggle} className='inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4' href='/kio-ni-estas'>Lo que somos</Link>
               </li>
               <li className="mr-3">
-                <a className='inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4' href='/cxenoj'>Cadenas</a>
+                <Link onClick={onClickToggle} className='inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4' href='/cxenoj'>Cadenas</Link>
               </li>
               <li className="mr-3">
-                <a className='inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4' href='/nokte'>De noche</a>
+                <Link onClick={onClickToggle} className='inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4' href='/nokte'>De noche</Link>
               </li>
               <li className="mr-3">
-                <a className='inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4' href='/la-atendo'>La espera</a>
+                <Link onClick={onClickToggle} className='inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4' href='/la-atendo'>La espera</Link>
               </li>
               <li className="mr-3">
-                <a className='inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4' href='/nuda'>Desnuda</a>
+                <Link onClick={onClickToggle} className='inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4' href='/nuda'>Desnuda</Link>
               </li>
               <li className="mr-3">
-                <a className='inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4' href='/sub-via-ombro'>Debajo de tu sombra</a>
+                <Link onClick={onClickToggle} className='inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4' href='/sub-via-ombro'>Debajo de tu sombra</Link>
               </li>
               <li className="mr-3">
-                <a className='inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4' href='/en-la-flava-urbo'>En la ciudad amarilla</a>
+                <Link onClick={onClickToggle} className='inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4' href='/en-la-flava-urbo'>En la ciudad amarilla</Link>
               </li>
               <li className="mr-3">
-                <a className='inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4' href='/revo'>Sueño</a>
+                <Link onClick={onClickToggle} className='inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4' href='/revo'>Sueño</Link>
               </li>
             </ul>
           </div>
