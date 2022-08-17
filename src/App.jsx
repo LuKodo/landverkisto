@@ -36,6 +36,9 @@ function App () {
           <Route path="/nuda">
             <Nuda />
           </Route>
+          <Route path="/revo">
+            <Revo />
+          </Route>
           <Route path="/sub-via-ombro">
             <SubViaOmbro />
           </Route>
@@ -44,23 +47,13 @@ function App () {
           </Route>
         </div>
 
+        <hr className="border-b-1 border-gray-400 mb-8 mx-4" />
 
-        <div className="flex w-full items-center font-sans px-4 py-12">
+        <div className="flex w-full items-center font-sans px-4">
           <img className="w-20 h-20 rounded-full mr-4" src="https://yt3.ggpht.com/yti/AJo0G0kb_gESfeMrzyMekf_nlE-ngl8NdqvhlB2OxYDJaQ=s88-c-k-c0x00ffffff-no-rj-mo" alt="Avatar of Author" />
           <div className="flex-1 px-2">
             <p className="text-base font-bold text-base md:text-xl leading-none mb-2">Luis Caraballo</p>
             <p className="text-gray-600 text-xs md:text-base">Escritor, programador & esperantista.</p>
-          </div>
-        </div>
-
-        <hr className="border-b-1 border-gray-400 mb-8 mx-4" />
-
-        <div className="font-sans flex justify-between content-center px-4 pb-12">
-          <div className="text-left">
-            <a href="#" className="break-normal text-base md:text-sm text-green-500 font-bold no-underline">Blog title</a>
-          </div>
-          <div className="text-right">
-            <a href="#" className="break-normal text-base md:text-sm text-green-500 font-bold no-underline hover:underline">Blog title</a>
           </div>
         </div>
       </div>
