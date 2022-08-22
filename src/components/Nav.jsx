@@ -30,45 +30,45 @@ function Nav () {
             </a>
           </div>
 
-          <div className="block lg:hidden pr-4">
+          <div className="block pr-4">
             <button id="nav-toggle" onClick={onClickToggle} className="flex items-center px-3 py-2 border rounded text-teal-500 border-teal-600 hover:text-teal-600 hover:border-teal-500 appearance-none focus:outline-none">
               <i className="bi bi-list"></i>
             </button>
           </div>
 
-          <div className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 md:bg-transparent z-20 bg-teal-100" id="nav-content">
-            <ul className="list-reset lg:flex justify-end flex-1 items-center">
-              <li className="mr-3">
+          <div className="w-full flex-grow hidden mt-2 md:bg-white z-20 bg-teal-100" id="nav-content">
+            <ul className="list-reset justify-end flex-1 items-center">
+              <li className="mr-3 text-end">
                 <Link onClick={onClickToggle} className='inline-block text-teal-600 no-underline hover:text-teal-900 hover:text-underline py-2 px-4' href='/frontpagxo'>Portada</Link>
               </li>
-              <li className="mr-3">
+              <li className="mr-3 text-end">
                 <Link onClick={onClickToggle} className='inline-block text-teal-600 no-underline hover:text-teal-900 hover:text-underline py-2 px-4' href='/dedicxo'>Dedicatoria</Link>
               </li>
-              <li className="mr-3">
+              <li className="mr-3 text-end">
                 <Link onClick={onClickToggle} className='inline-block text-teal-600 no-underline hover:text-teal-900 hover:text-underline py-2 px-4' href='/kagxoj'>Jaulas</Link>
               </li>
-              <li className="mr-3">
+              <li className="mr-3 text-end">
                 <Link onClick={onClickToggle} className='inline-block text-teal-600 no-underline hover:text-teal-900 hover:text-underline py-2 px-4' href='/kio-ni-estas'>Lo que somos</Link>
               </li>
-              <li className="mr-3">
+              <li className="mr-3 text-end">
                 <Link onClick={onClickToggle} className='inline-block text-teal-600 no-underline hover:text-teal-900 hover:text-underline py-2 px-4' href='/cxenoj'>Cadenas</Link>
               </li>
-              <li className="mr-3">
+              <li className="mr-3 text-end">
                 <Link onClick={onClickToggle} className='inline-block text-teal-600 no-underline hover:text-teal-900 hover:text-underline py-2 px-4' href='/nokte'>De noche</Link>
               </li>
-              <li className="mr-3">
+              <li className="mr-3 text-end">
                 <Link onClick={onClickToggle} className='inline-block text-teal-600 no-underline hover:text-teal-900 hover:text-underline py-2 px-4' href='/la-atendo'>La espera</Link>
               </li>
-              <li className="mr-3">
+              <li className="mr-3 text-end">
                 <Link onClick={onClickToggle} className='inline-block text-teal-600 no-underline hover:text-teal-900 hover:text-underline py-2 px-4' href='/nuda'>Desnuda</Link>
               </li>
-              <li className="mr-3">
+              <li className="mr-3 text-end">
                 <Link onClick={onClickToggle} className='inline-block text-teal-600 no-underline hover:text-teal-900 hover:text-underline py-2 px-4' href='/sub-via-ombro'>Debajo de tu sombra</Link>
               </li>
-              <li className="mr-3">
+              <li className="mr-3 text-end">
                 <Link onClick={onClickToggle} className='inline-block text-teal-600 no-underline hover:text-teal-900 hover:text-underline py-2 px-4' href='/en-la-flava-urbo'>En la ciudad amarilla</Link>
               </li>
-              <li className="mr-3">
+              <li className="mr-3 text-end">
                 <Link onClick={onClickToggle} className='inline-block text-teal-600 no-underline hover:text-teal-900 hover:text-underline py-2 px-4' href='/revo'>Sueño</Link>
               </li>
             </ul>
