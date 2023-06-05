@@ -1,8 +1,4 @@
-import { createRoot } from 'react-dom/client'
+import { render } from 'preact'
 import App from './App'
 
-const root = document.getElementById('root')
-
-createRoot(root).render(
-  <App />
-)
+render(<App />, document.getElementById('root'))

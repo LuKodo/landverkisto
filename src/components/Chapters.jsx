@@ -1,4 +1,4 @@
-import { Link } from "wouter"
+import { Link } from "preact-router/match"
 import Guide from "./Guide"
 import PageTitle from "./PageTitle"
 

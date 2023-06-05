@@ -1,4 +1,4 @@
-import { Link } from "wouter";
+import { Link } from "preact-router/match";
 
 function Nav () {
   document.addEventListener('scroll', function () {
