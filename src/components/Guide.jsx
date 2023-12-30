@@ -1,4 +1,4 @@
-import { Link } from "preact-router/match";
+import { A as Link } from "@solidjs/router";
 
 function Guide (props) {
   return (
